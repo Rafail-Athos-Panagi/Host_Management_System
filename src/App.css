@@ -1,0 +1,32 @@
+.App {
+  width: 100vw;
+  min-height: 100vh;
+  background-color: lightgrey;
+  display: grid;
+  grid-template-columns: 12% 88%;
+  grid-template-rows: 8vh 92vh;
+}
+
+.sidebar { 
+  grid-area: 1 / 1 / span 2 / span 1;
+}
+
+.header { 
+  grid-area: 1 / 2 / span 1 / span 1;
+  background-color: rgb(150, 150, 150);
+  box-shadow: 10px 0 20px rgba(0, 0, 0, 0.15);
+
+}
+
+.content { 
+  grid-area: 2 / 2 / span 1 / span 1; 
+  padding: 40px;
+  overflow-y: auto;
+}
+
+
+body {
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0;
+}

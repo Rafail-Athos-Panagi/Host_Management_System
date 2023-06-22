@@ -1,0 +1,35 @@
+InputSelect.js: 
+
+- Περιλαμβάνει το label και το input μαζί 
+- Για να το καλέσεις σωστά πρέπει να περάσεις συγκεκριμένες παράμετρους
+        Όνομα του Label 
+        Τι type είναι
+        Ποιο id έχει
+        Την τιμή που θα έχει εκείνη την στιγμή το value ( Χρησιμοποιείται για να γίνει clear το input και συνήθως είναι η τιμή του state )
+        onChange To funtion σας όπου θα χειρίζεται το onChange Value 
+        onBlur To funtion σας όπου θα χειρίζεται το onBlur Value 
+        hasError Το validation εάν είναι false να βγάζει το ανεμενόμενο αποτέλεσμα ( Συνήθως θα έρθει από το useInput hook )
+
+
+Παράδειγμα: 
+<InputSelect
+    label="First Name"
+    type="text"
+    id="firstname"
+    value={firstNameValue}
+    onChange={firstNameChangeHandler}
+    onBlur={firstNameBlurHandler}
+    hasError={firstNameHasError}
+>
+</InputSelect>
+
+Extra Attributs:
+
+Για συγκεκριμένο αριθμό χαρακτήρων περνούμε σαν attribute:
+maxCharacters(Αριθμός Χαρακτήρων)
+
+Για να κάνετε resize to input περνούμε σαν attribute:
+resize= "Μέγεθος και δίπλα το px"
+
+Αν θέλεται να είναι υποχρεωτικό το input περνούμε σαν attribute:
+required={true}

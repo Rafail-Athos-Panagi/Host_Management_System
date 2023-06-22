@@ -1,0 +1,42 @@
+To use API
+
+Data can be renamed to whatever it needs to be
+
+ const [data, setData] = React.useState(null);
+
+  React.useEffect(() => {
+    fetch("/api/link")
+      .then((res) => res.json())
+      .then((data) => setData(data.message));
+  }, []);
+
+
+
+
+Node:
+
+  app.get("/api/:query", function (req, res) {
+  console.log(req.params.query);
+  con.query(req.params.query, function (err,result,fields){
+    res.json(result);
+  });
+});
+
+you get the table that was requested in the query sent by react, SET YOUR ENV FILE CORRECTLY
+
+React Example
+
+  const [data, setData] = React.useState(null);
+  const table='suppliers'
+
+  useEffect(() => {
+    fetch(`http://localhost:5000/api/SELECT * FROM ${table};`)
+      .then(function(res){
+        res.json().then(function(data){
+          console.log(data);
+        })
+      })
+  }, []);
+
+
+Data is an array and can be accessed like data[0].name 

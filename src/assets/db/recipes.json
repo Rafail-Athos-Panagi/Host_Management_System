@@ -1,0 +1,14 @@
+{
+    "10": {
+        "image": "afelia",
+        "name": "Afelia me pourgouri",
+        "description": "This is a placeholder description",
+        "link": "/recipes/afelia"
+    },
+    "11": {
+        "image": "macncheese",
+        "name": "Mac N Cheese",
+        "description": "This is a placeholder description",
+        "link": "/recipes/macncheese"
+    }
+}

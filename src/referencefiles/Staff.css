@@ -1,0 +1,54 @@
+.Staff {
+  margin: auto;
+  padding: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+.Staff .Box {
+  width: fit-content;
+  height: fit-content;
+  border-radius: 15px;
+  background-color: lightgray;
+}
+
+.Staff .Box .Contents {
+  display: inline-block;
+  place-items: center;
+  width: 100%;
+}
+
+#Searchbox {
+  margin: 10px;
+}
+
+.Staff .Box .Contents .smallbox {
+  width: 100%;
+  max-width: auto;
+  height: 100px;
+  display: flex;
+  justify-content: left;
+  align-items: left;
+}
+
+.Staff .Box .Contents .smallbox .image {
+  max-width: 80px;
+  max-height: 80px;
+}
+
+.Staff .Box .Contents .smallbox .imagetd {
+  margin-top: auto;
+  margin-bottom: auto;
+  text-align: center;
+  width: 20%;
+}
+.Staff .Box .Contents .smallbox .name {
+  margin-top: auto;
+  margin-bottom: auto;
+  width: 50%;
+}
+.Staff .Box .Contents .smallbox .choice {
+  margin-top: auto;
+  margin-bottom: auto;
+  width: 30%;
+}

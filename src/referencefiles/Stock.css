@@ -1,0 +1,65 @@
+.Stock {
+  margin: auto;
+  padding: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+.Stock .Box {
+  width: fit-content;
+  height: fit-content;
+  padding: 10px;
+  border-radius: 15px;
+  background-color: lightgray;
+}
+
+.Stock .Box .Contents {
+  gap: 20px;
+  width: 100%;
+}
+
+#Searchbox {
+  margin: 10px;
+}
+
+.Stock .Box .Contents .smallbox {
+  max-width: 100%;
+  height: 75px;
+  display: flex;
+  justify-content: left;
+  align-items: left;
+  white-space: nowrap;
+}
+
+.Stock .Box .Contents .smallbox .image {
+  display: inline-block;
+  text-align: left;
+  height: auto;
+  max-width: 60px;
+  max-height: 70px;
+}
+
+.Stock .Box .Contents .smallbox .imagetd {
+  text-align: center;
+  margin-top: auto;
+  margin-bottom: auto;
+  width: 20%;
+  max-width: 85px;
+}
+.Stock .Box .Contents .smallbox .name {
+  margin-top: auto;
+  margin-bottom: auto;
+  width: 40%;
+}
+.Stock .Box .Contents .smallbox .quantity {
+  margin-top: auto;
+  margin-bottom: auto;
+  display: inline-flex;
+  width: 30%;
+}
+
+.Stock .Box .Contents .smallbox .remove {
+  margin-top: auto;
+  margin-bottom: auto;
+  width: 13%;
+}

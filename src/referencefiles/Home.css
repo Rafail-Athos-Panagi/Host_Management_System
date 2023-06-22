@@ -1,0 +1,44 @@
+.Home {
+  margin: auto;
+  padding: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+.Home .Box {
+  width: min-content;
+  height: min-content;
+  border-radius: 15px;
+  background-color: lightgray;
+}
+
+.Home .Box .Contents {
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 20px;
+  place-items: center;
+}
+
+.Home .Box .Contents .smallbox {
+  width: 400px;
+  height: 300px;
+  padding: 5px;
+  margin: 20px;
+  display: grid;
+  place-items: center;
+}
+
+.smallbox #icon {
+  flex: 35%;
+  display: grid;
+  place-items: center;
+}
+
+.smallbox #title {
+  flex: 65%;
+  display: grid;
+  place-items: center;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 20px;
+}

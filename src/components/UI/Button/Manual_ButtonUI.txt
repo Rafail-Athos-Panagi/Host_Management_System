@@ -1,0 +1,15 @@
+ButtonUI.js: 
+
+- Για να το καλέσεις σωστά πρέπει να περάσεις συγκεκριμένες παράμετρους
+        Τι type είναι ( By default είναι button )
+        onClick ( To funtion σας όπου θα χειρίζεται το onClick )
+        disabled Το validation εάν είναι false να απενεργοποιεί το button ( Συνήθως θα έρθει από το formValidation )
+        action Αν θα είναι cancel η Confirm ( Cancel: cancel , Confirm: success )
+
+Παράδειγμα: 
+<ButtonUI type="sumbit" valid={formIsValid} action="success">
+        Sumbit
+</ButtonUI>
+
+Παράδειγμα με το κουμπί να είναι πάντα ενεργό: 
+<ButtonUI type="submit" valid={true}>Submit</ButtonUI>

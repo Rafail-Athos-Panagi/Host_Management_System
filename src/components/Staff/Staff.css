@@ -1,0 +1,44 @@
+.staff {
+  display: flex;
+}
+
+.staff .box {
+  width: 100%;
+  height: fit-content;
+  background-color: whitesmoke;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+ 
+}
+
+.staff .box .title{
+  background-color: #379e8a;
+  color: white;
+  font-size: 30px;
+  padding-left: 10px;
+}
+
+.staff .box .interior{
+  padding: 30px;
+}
+
+.staff .box .leftside{
+  width: 50%;
+}
+
+.staff .box .rightside{
+  width: 50%;
+  text-align: right;
+}
+
+#print
+{
+  margin-left: 1100px;
+  width: 70px;
+  height: 35px;
+}
+
+.staff td {
+  -webkit-user-select: none; /* Safari */
+  -ms-user-select: none; /* IE 10 and IE 11 */
+  user-select: none; /* Standard syntax */
+}

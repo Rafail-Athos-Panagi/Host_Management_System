@@ -1,0 +1,44 @@
+{
+    "1":{
+        "productID":"1234",
+        "productType":[
+            "Kitchen Supplies",
+            "Food",
+            "Cleaning",
+            "Till"
+        ],
+        "productSupplier":[
+            "Pastry Pro",
+            "Axna Fruit Market",
+            "GDL Trading"
+        ],
+        "productName":"Chicken",
+        "Units":[
+            "KG",
+            "Pieces"
+        ],
+        "Quantity":"24",
+        "Description":"Use for burgers"
+    },
+    "2":{
+        "productID":"2355",
+        "productType":[
+            "Kitchen Supplies",
+            "Food",
+            "Cleaning",
+            "Till"
+        ],
+        "productSupplier":[
+            "Pastry Pro",
+            "Axna Fruit Market",
+            "GDL Trading"
+        ],
+        "productName":"Pork",
+        "Units":[
+            "KG",
+            "Pieces"
+        ],
+        "Quantity":"12",
+        "Description":"Use for stew"
+    }
+}

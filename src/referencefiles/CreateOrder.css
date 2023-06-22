@@ -1,0 +1,29 @@
+.CreateOrder {
+  margin: auto;
+  padding: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+.CreateOrder .Box {
+  width: fit-content;
+  height: fit-content;
+  padding: 20px;
+  border-radius: 15px;
+  background-color: lightgray;
+}
+
+.CreateOrder .Box .Contents {
+  display: inline-block;
+  place-items: center;
+  width: auto;
+}
+
+#row {
+  display: flex;
+}
+
+#column {
+  flex: 50%;
+  padding: 10px;
+}

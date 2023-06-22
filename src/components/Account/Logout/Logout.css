@@ -1,0 +1,129 @@
+
+  /* .app 
+  {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      height: 100vh;
+      margin: auto
+  } */
+  
+/*    
+   .inputs
+  {
+      height: 25px;
+      border: 1px solid rgba(0, 0, 0, 0.2);
+  } */
+    
+   /* .submit
+  {
+      margin-top: 20px;
+      cursor: pointer;
+      font-size: 19px;
+      background: rgb(21, 145, 145);
+      border: 1px solid rgb(21, 145, 145);
+      color: #fff;
+      padding: 9px 18px;
+      width: 100%;
+      border-radius: 25px;
+      font-weight: 600;
+  } */
+  
+  /* .positive
+  {
+    margin-top: 20px;
+    cursor: pointer;
+    font-size: 19px;
+    background: green;
+    border: 1px solid green;
+    color: #fff;
+    padding: 9px 18px;
+    width: 100%;
+    border-radius: 25px;
+    font-weight: 600;
+  }
+
+  .negative
+  {
+    margin-top: 20px;
+    cursor: pointer;
+    font-size: 19px;
+    background: #cc0000;
+    border: 1px solid #cc0000;
+    color: #fff;
+    padding: 9px 18px;
+    width: 100%;
+    border-radius: 25px;
+    font-weight: 600;
+  } */
+  
+
+  .decoration
+  {
+    text-decoration: none;
+  }
+
+   .button-container-logout 
+  {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      
+  }
+
+  #yes-btn
+  {
+    margin-right: 50px; 
+  }
+
+  
+
+  
+   .link-container
+  {
+    display: flex;
+    justify-content: center;
+  }
+
+
+  
+
+    
+    /* .logout-form 
+  {
+      background-color: white;
+      padding: 3rem;
+      box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  }  */
+  
+    /* .list-container 
+  {
+      display: flex;
+  } */
+    
+    /* .errorMessage
+  {
+      color: red;
+      font-size: 14px;
+  } */
+    
+    /* .title 
+  {
+      font-size: 25px;
+      margin-bottom: 20px;
+  } */
+    
+    /* .input-container 
+  {
+      display: flex;
+      flex-direction: column;
+  }
+  
+  
+  a
+  {
+    color: black;
+  } */
+
+  

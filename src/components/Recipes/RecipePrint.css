@@ -1,0 +1,29 @@
+.rootContainer {
+  padding: 5rem;
+}
+
+.title {
+  font-weight: "bold";
+  font-size: 2rem;
+  text-align: center;
+}
+
+.recipeInfo {
+  display: flex;
+  justify-content: left;
+  align-items: left;
+  margin-top: 4rem;
+}
+
+.recipeInfoTitle {
+  font-weight: bold;
+}
+
+.recipeInfoText {
+  font-size: 1rem;
+  margin-left: 2rem;
+}
+
+tr {
+  page-break-inside: avoid;
+}

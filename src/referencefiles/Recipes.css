@@ -1,0 +1,43 @@
+.Recipes {
+  margin: auto;
+  padding: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+.Recipes .Box {
+  width: fit-content;
+  height: 85vh;
+  border-radius: 15px;
+  background-color: lightgray;
+  overflow-y: scroll;
+}
+
+.Recipes .Box .Contents {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  gap: 20px;
+  place-items: center;
+}
+
+#Searchbox {
+  display: flex;
+  margin: 10px;
+}
+
+.Recipes .Box .Contents .smallbox {
+  width: 300px;
+  height: 300px;
+  padding: 5px;
+  margin: 20px;
+  display: grid;
+  place-items: center;
+}
+
+.Recipes .Box .Contents .smallbox .image {
+  display: grid;
+  place-items: center;
+  height: auto;
+  max-width: 40%;
+  margin: auto;
+}

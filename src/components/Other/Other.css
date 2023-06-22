@@ -1,0 +1,30 @@
+.other {
+    display: flex;
+  }
+  
+  .other .box {
+    width: 100%;
+    height: 100%;
+    background-color: whitesmoke;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+  }
+  
+  .other .box .title{
+    background-color: #379e8a;
+    color: white;
+    font-size: 30px;
+    padding-left: 10px;
+  }
+  
+  .other .box .interior{
+    padding: 30px;
+  }
+  
+  .other .box .leftside{
+    width: 50%;
+  }
+  
+  .other .box .rightside{
+    width: 50%;
+    text-align: right;
+  }

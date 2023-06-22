@@ -1,0 +1,93 @@
+{
+    "1": {
+        "name": "Buns",
+        "type": "Food",
+        "unit": "pieces",
+        "quantity": 300,
+        "supplier": "Kostas Trading LTD"
+    },
+    "2": {
+        "name": "Chicken wings",
+        "type": "Food",
+        "unit": "pieces",
+        "quantity": 50,
+        "supplier": "Andreas Foods LTD"
+    },
+    "3": {
+        "name": "Tomatoes",
+        "type": "Food",
+        "unit": "pieces",
+        "quantity": 300,
+        "supplier": "Kostas Trading LTD"
+    },
+    "4": {
+        "name": "Lettuce",
+        "type": "Food",
+        "unit": "kg",
+        "quantity": 5,
+        "supplier": "Fresh Market"
+    },
+    "5": {
+        "name": "Flour",
+        "type": "Food",
+        "unit": "pieces",
+        "quantity": 5,
+        "supplier": "Kostas Trading LTD"
+    },
+    "6": {
+        "name": "Hand soap",
+        "type": "Cleaning",
+        "unit": "pieces",
+        "quantity": 5,
+        "supplier": "Kostas Trading LTD"
+    },
+    "7": {
+        "name": "Hand soap",
+        "type": "Cleaning",
+        "unit": "pieces",
+        "quantity": 5,
+        "supplier": "Kostas Trading LTD"
+    },
+    "8": {
+        "name": "Hand soap",
+        "type": "Cleaning",
+        "unit": "pieces",
+        "quantity": 5,
+        "supplier": "Kostas Trading LTD"
+    },
+    "9": {
+        "name": "Hand soap",
+        "type": "Cleaning",
+        "unit": "pieces",
+        "quantity": 5,
+        "supplier": "Kostas Trading LTD"
+    },
+    "10": {
+        "name": "Hand soap",
+        "type": "Cleaning",
+        "unit": "pieces",
+        "quantity": 5,
+        "supplier": "Kostas Trading LTD"
+    },
+    "11": {
+        "name": "Hand soap",
+        "type": "Cleaning",
+        "unit": "pieces",
+        "quantity": 5,
+        "supplier": "Kostas Trading LTD"
+    },
+    "12": {
+        "name": "Hand soap",
+        "type": "Cleaning",
+        "unit": "pieces",
+        "quantity": 5,
+        "supplier": "Kostas Trading LTD"
+    },
+    "13": {
+        "name": "Hand soap",
+        "type": "Cleaning",
+        "unit": "pieces",
+        "quantity": 5,
+        "supplier": "Kostas Trading LTD"
+    }
+}

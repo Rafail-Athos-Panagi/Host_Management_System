@@ -1,0 +1,154 @@
+.login
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    margin: auto;
+}
+
+.login .login-form 
+{
+    background-color: white;
+    padding: 4rem;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    width: 400px;
+}  
+
+.login .inputs
+{
+    /* height: 25px;
+    border: 1px solid rgba(0, 0, 0, 0.2); */
+    width: 100%;
+    padding: 0 5px;
+    height: 40px;
+    font-size: 16px;
+    border: none;
+    background: none;
+    outline: none;
+}
+  
+.login .submit
+{
+    margin-top: 20px;
+    cursor: pointer;
+    font-size: 19px;
+    background: rgb(21, 145, 145);
+    border: 1px solid rgb(21, 145, 145);
+    color: #fff;
+    padding: 9px 18px;
+    width: 100%;
+    border-radius: 25px;
+    font-weight: 600;
+}
+
+.login .sign-up-link
+{
+    margin-top: 20px;
+    cursor: pointer;
+    font-size: 19px;
+    background: rgb(21, 145, 145);
+    border: 1px solid rgb(21, 145, 145);
+    color: #fff;
+    padding: 9px 18px;
+    width: 100%;
+    border-radius: 25px;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.login .sign-up-link:hover
+{
+  color: white;
+  background: rgb(16, 105, 105)
+}
+  
+.login .submit:hover
+{
+    background: rgb(16, 105, 105)
+}
+  
+.login .button-container 
+{
+    display: flex;
+    justify-content: center;
+}
+
+.login .link-container
+{
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.login .list-container 
+{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+  
+.login  .errorMessage
+{
+    color: red;
+    font-size: 16px;
+}
+
+
+.login .successMessage
+{
+    color: green;
+    font-size: 16px;
+}
+  
+.login .login-form .title
+{
+    font-size: 25px;
+    margin-bottom: 20px;
+    text-align: center;
+    padding: 0 0 24px 0;
+    border-bottom: 1px solid gray;
+}
+  
+.login .input-container 
+{
+    display: flex;
+    flex-direction: column;
+    border-bottom: 2px solid gray;
+    margin-top: 10%;
+}
+
+
+.login .center
+{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.login .signup
+{
+  margin-top: 50%;
+}
+
+.login .center
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.login a
+{
+  color: black;
+}
+
+.login .button-container-f
+{
+    display: flex;
+    justify-content: center;
+    margin-top: 33%;
+
+}

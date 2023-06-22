@@ -1,0 +1,45 @@
+.recipes {
+    display: flex;
+}
+
+.recipes .box {
+    width: 100%;
+    height: 100%;
+    background-color: whitesmoke;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+}
+
+.recipes .box .title {
+    background-color: #379e8a;
+    color: white;
+    font-size: 30px;
+    padding-left: 10px;
+}
+
+.recipes .box .interior {
+    padding: 30px;
+}
+
+.recipes .box .leftside {
+    width: 50%;
+}
+
+.recipes .box .rightside {
+    width: 50%;
+    text-align: right;
+}
+
+.recipes .contents{
+    padding-top: 20px;
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.unselectable{
+    user-select: none;
+}
+
+.default-cursor {
+    cursor: default;
+  }

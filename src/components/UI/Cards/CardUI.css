@@ -1,0 +1,14 @@
+.icon {
+    text-align: center;
+    justify-content: center;
+}
+
+.title {
+    text-align: center;
+    background-color: #0b5658;
+    color: white
+}
+
+.title :hover {
+    background-color: #062f30;
+}
